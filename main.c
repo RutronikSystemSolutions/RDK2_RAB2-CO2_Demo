@@ -83,7 +83,6 @@ cyhal_i2c_cfg_t I2C_cfg;
 /*PASCO2 Sensor Global Structure*/
 xensiv_pasco2_t xensiv_pasco2;
 
-
 int main(void)
 {
     cy_rslt_t result;
