@@ -2,17 +2,17 @@
 
 Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 "RAB2-CO2 & RDK2" Code Example. 
 
-This code example demonstrates the PAS Co2 and SCD41 sensors with the RDK2.
+This code example demonstrates using the PAS CO2 and SCD41 sensors with the RDK2.
 
  <img src="images/rab2co2model.jpg" style="zoom:20%;" />
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v2025.4.0** [built with **v3.0**]
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.7** [built with **v3.0**]
 
 ## Supported toolchains (make variable 'TOOLCHAIN')
 
-- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
+- GNU Arm&reg; Embedded Compiler v14.2.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
 ## Using the code example
 
@@ -129,7 +129,7 @@ The firmware example uses KitProg3 Debug UART for the debug output. The results 
 
 ### Debugging
 
-If you have successfully imported the example, the debugging configurations are already prepared to be used with the KitProg3, MiniProg4. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait for the programming to complete and the debugging process to start.
+If you have successfully imported the example, the debugging configurations are already prepared to be used with the KitProg3 and MiniProg4. Open the ModusToolbox perspective and find the Quick Panel. Click the desired debug launch configuration, then wait for programming to complete and debugging to start.
 
 <img src="images/debugging.png" style="zoom:100%;" />
 
